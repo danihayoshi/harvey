@@ -16,6 +16,12 @@
 - **Nichos:** consultores e coaches, imobiliárias pequenas, escritórios de contabilidade.
 - **Primeira campanha:** Brasil, em português.
 
+## Marca
+- **Mado & Co.** é o laboratório de IA: o guarda-chuva dos negócios tocados no modelo AI Solopreneur. Ela não vira escola.
+- **Dani Hayoshi** é o rosto e a marca pessoal (danihayoshi.com).
+- **AI Solopreneur Academy** é um dos negócios do laboratório: ensina o que o laboratório prova na prática. Começa como página dentro do danihayoshi.com.
+- **Domínio sugerido para os e-mails frios** (também redireciona para a página da Academy): `aisolopreneur.com.br` ou parecido. Ainda não decidido.
+
 ## Próximos passos
 1. [ ] Configurar o Harvey para o Brasil (harvey.yaml).
 2. [ ] Definir o e-mail remetente (o ideal é um domínio secundário) e configurar o Gmail.
