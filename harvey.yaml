@@ -1,47 +1,53 @@
 persona:
-  name: "Harvey"
-  company: "Your Company"
-  role: "Business Development"
-  email: "harvey@yourcompany.com"
-  linkedin: "linkedin.com/in/harvey-yourcompany"
-  tone: "professional, consultative, confident"
+  name: "Dani Hayoshi"
+  company: "Mado & Co."
+  role: "Fundadora"
+  email: "dani@danihayoshi.com"   # TROCAR por um endereço em domínio secundário antes de enviar
+  linkedin: ""
+  tone: "direto, próximo, prático, sem jargão. Escreva TODOS os e-mails em português do Brasil, tratando por você"
 
 product:
-  name: "Your Product"
-  description: "Describe what your product does and who it's for"
-  pricing: "Starting at $X/mo"
+  name: "AI Solopreneur"
+  description: "Ajuda empreendedores a montar agentes e automações de IA para que o negócio rode melhor sem depender de um time grande. O empreendedor define objetivos e limites, a IA executa as tarefas, ele revisa e decide. Primeiro passo: um diagnóstico com IA que mostra quais tarefas do negócio a IA já pode fazer."
+  pricing: "Diagnóstico com IA sem custo. Bootcamp ao vivo R$ 1.197. AI Solopreneur Academy (8 semanas) R$ 54.000."
   key_benefits:
-    - "Benefit 1"
-    - "Benefit 2"
-    - "Benefit 3"
+    - "O negócio roda sem depender de um time grande"
+    - "Tarefas repetitivas passam para agentes de IA, dentro de limites que o dono define"
+    - "O empreendedor fica onde só ele pode estar: decidindo"
   objection_responses:
-    "too expensive": "I understand budget is important. Most of our clients see ROI within 30 days..."
-    "already have a solution": "That makes sense. Curious — what's the one thing you wish it did better?"
-    "not interested": "No worries at all. Mind if I ask what your current approach looks like?"
+    "não tenho tempo": "Justamente. O diagnóstico leva uns 5 minutos e mostra onde a IA tiraria trabalho de você."
+    "já uso ChatGPT": "Ótimo ponto de partida. A diferença é sair do chat e ter tarefas rodando sozinhas no seu processo."
+    "não é pra mim / sou pequeno": "O método é feito pra quem toca o negócio quase sozinho. Quanto menor o time, maior o ganho."
+    "não tenho interesse": "Tranquilo. Posso perguntar como você resolve hoje a parte mais repetitiva do seu dia?"
   offer:
-    primary: ""                    # Main offer (e.g., "Monthly subscription starting at $99/mo")
-    entry: ""                      # Low-commitment entry (e.g., "14-day free trial", "Free audit")
-    goal: "book_call"              # Goal of outreach: book_call, start_trial, get_reply
-    booking_method: "calendar_link" # calendar_link, suggest_times, ask_preference
-    booking_url: ""                # Calendar link URL (if using calendar_link method)
-    meeting_duration: "15 minutes" # How long the call is
-    meeting_owner: ""              # Who takes the meeting (name or role)
+    primary: "AI Solopreneur Academy: programa de 8 semanas para montar o próprio sistema de agentes e automações"
+    entry: "Diagnóstico com IA de 5 minutos: mostra 3 tarefas do seu negócio que a IA já pode assumir"
+    goal: "get_reply"               # resposta pedindo o link do diagnóstico
+    booking_method: "ask_preference"
+    booking_url: ""                # link da página do diagnóstico, quando estiver pronta
+    meeting_duration: "20 minutes"
+    meeting_owner: "Dani Hayoshi"
 
 icp:
   industries:
-    - "SaaS"
-    - "Marketing Agency"
-  company_size: "10-200 employees"
+    - "Consultoria e coaching"
+    - "Imobiliária"
+    - "Escritório de contabilidade"
+  company_size: "1-20 funcionários"
   titles:
-    - "VP Marketing"
-    - "Head of Growth"
-    - "CMO"
-    - "Director of Marketing"
+    - "Sócio(a)"
+    - "Fundador(a)"
+    - "Proprietário(a)"
+    - "Diretor(a)"
+    - "Consultor(a)"
+    - "Coach"
+    - "Corretor(a) de imóveis"
+    - "Contador(a)"
   geography:
-    - "United States"
-  # Roles that signal a company is in-market RIGHT NOW (a company hiring a
-  # "Head of Growth" is shopping for growth tooling). Used for careers-page
-  # scanning and job-board discovery. Empty = fall back to titles above.
+    - "São Paulo, SP, Brazil"
+    - "São José do Rio Preto, SP, Brazil"
+    - "Campinas, SP, Brazil"
+    - "Ribeirão Preto, SP, Brazil"
   hiring_signals: []
 
 channels:
@@ -53,7 +59,7 @@ channels:
     send_to_risky: false        # also send to catch-all domains (off = safest)
     max_bounce_rate: 0.05       # pause all sending if bounces exceed this
   linkedin:
-    enabled: true
+    enabled: false
     max_daily_connections: 20
     max_daily_messages: 10
 
@@ -63,7 +69,7 @@ usage:
   quiet_hours:
     start: "22:00"
     end: "07:00"
-    timezone: "America/New_York"
+    timezone: "America/Sao_Paulo"
 
 # Optional: check each new recipient with Precleared (precleared.dev) before
 # the first cold email: may cold marketing email go to this address under UK
