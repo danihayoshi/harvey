@@ -8,24 +8,24 @@ persona:
 
 product:
   name: "AI Solopreneur"
-  description: "Ajuda empreendedores a montar agentes e automações de IA para que o negócio rode melhor sem depender de um time grande. O empreendedor define objetivos e limites, a IA executa as tarefas, ele revisa e decide. Primeiro passo: um diagnóstico com IA que mostra quais tarefas do negócio a IA já pode fazer."
-  pricing: "Diagnóstico com IA sem custo. Bootcamp ao vivo R$ 1.197. AI Solopreneur Academy (8 semanas) R$ 54.000."
+  description: "Ajuda empreendedores a montar agentes e automações de IA para que o negócio rode melhor sem depender de um time grande. O empreendedor define objetivos e limites, a IA executa as tarefas, ele revisa e decide. Primeiro passo: o Plano IA do Seu Negócio, uma sessão de uma hora que monta, com um agente, o plano do que a IA assume no negócio."
+  pricing: "Plano IA do Seu Negócio R$ 97. Aulas ao vivo de entrada R$ 997. AI Solopreneur Academy R$ 14.997. Comunidade R$ 797/mês. Implementação ou mentoria individual sob consulta."
   key_benefits:
     - "O negócio roda sem depender de um time grande"
     - "Tarefas repetitivas passam para agentes de IA, dentro de limites que o dono define"
     - "O empreendedor fica onde só ele pode estar: decidindo"
   objection_responses:
-    "não tenho tempo": "Justamente. O diagnóstico leva uns 5 minutos e mostra onde a IA tiraria trabalho de você."
+    "não tenho tempo": "Justamente. Em uma hora a gente monta o plano do que a IA tira das suas mãos."
     "já uso ChatGPT": "Ótimo ponto de partida. A diferença é sair do chat e ter tarefas rodando sozinhas no seu processo."
     "não é pra mim / sou pequeno": "O método é feito pra quem toca o negócio quase sozinho. Quanto menor o time, maior o ganho."
     "não tenho interesse": "Tranquilo. Posso perguntar como você resolve hoje a parte mais repetitiva do seu dia?"
   offer:
     primary: "AI Solopreneur Academy: programa de 8 semanas para montar o próprio sistema de agentes e automações"
-    entry: "Diagnóstico com IA de 5 minutos: mostra 3 tarefas do seu negócio que a IA já pode assumir"
-    goal: "get_reply"               # resposta pedindo o link do diagnóstico
+    entry: "Plano IA do Seu Negócio (R$ 97): sessão de uma hora montando, com um agente de IA, o plano de quais tarefas do negócio a IA assume"
+    goal: "get_reply"               # resposta com interesse; depois oferecer o Plano IA (R$ 97)
     booking_method: "ask_preference"
-    booking_url: ""                # link da página do diagnóstico, quando estiver pronta
-    meeting_duration: "20 minutes"
+    booking_url: ""                # link de pagamento/agenda do Plano IA, quando existir
+    meeting_duration: "60 minutes"
     meeting_owner: "Dani Hayoshi"
 
 icp:
@@ -33,6 +33,13 @@ icp:
     - "Consultoria e coaching"
     - "Imobiliária"
     - "Escritório de contabilidade"
+    - "Escritório de advocacia"
+    - "Agência de marketing"
+    - "Clínica de estética"
+    - "Arquitetura e design de interiores"
+    - "Fotografia e produção de vídeo"
+    - "Personal trainer e estúdio de pilates"
+    - "Loja online (e-commerce pequeno)"
   company_size: "1-20 funcionários"
   titles:
     - "Sócio(a)"
